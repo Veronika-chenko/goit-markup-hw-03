@@ -98,7 +98,7 @@ img {
 
 /* --------HEADER-------- */
 .header {
-    border: 1px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
 }
 .header .container {
     display: flex;
@@ -122,8 +122,6 @@ img {
     margin-right: 50px;
 }
 
-
-/* header-link,-mail,-tel have the same font-info*/
 .header-link {
     display: block;
     padding-top: 32px;
@@ -290,7 +288,7 @@ img {
 }
 
 .team-info {
-    padding: 20px 0;
+    padding: 30px 0;
     background-color: #fff;
 }
 .team-title {
@@ -390,12 +388,10 @@ img {
 
 .footer {
     background-color: var(--footer-background-color);
-    
-}
-.footer .container {
     padding-top: 60px;
     padding-bottom: 60px;
 }
+
 .footer-logo {
     display: block;
     margin-bottom: 20px;
